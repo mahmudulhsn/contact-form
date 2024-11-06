@@ -1,0 +1,26 @@
+{
+    "name": "mahmudulhsn/contactform",
+    "description": "This is just a simple contact form.",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahmudulhsn\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mahmudulhsn\\Contactform\\ContactformServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "M H Hasib",
+            "email": "hasib.mahmudul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
